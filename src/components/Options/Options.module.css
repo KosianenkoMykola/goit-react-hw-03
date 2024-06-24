@@ -1,0 +1,38 @@
+.options {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #25ce99;
+  width: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover, .button:focus {
+  background-color: #2dfcbb;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.buttonReset {
+  width: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: #be5555;
+}
+
+.buttonReset:hover, .buttonReset:focus {
+  background-color: #ff4444;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,14 @@
+.title {
+    color: rgb(19, 19, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.descr {
+    color: rgb(19, 19, 31);
+    font-size: 15px;
+    text-align: center;
+}
