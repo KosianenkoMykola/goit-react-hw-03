@@ -34,15 +34,15 @@ const FeedbackSchema = Yup.object().shape({
     >
       <Form className={css.form}>
         <div className={css.formContainer}>
-          <label htmlFor="name">Name</label>
-          <Field type="text" name="name" id="name" />
-          <ErrorMessage className={css.error} name="name" component="span" />
+          <label className={css.label} htmlFor="name">Name</label>
+          <Field className={css.input} type="text" name="name" id="name" />
+          <ErrorMessage className={css.error} name="name" component="p" />
         </div>
 
         <div className={css.formContainer}>
-          <label htmlFor="number">Number</label>
-          <Field type="tel" name="number" id="number" />
-          <ErrorMessage className={css.error} name="number" component="span" />
+          <label className={css.label} htmlFor="number">Number</label>
+          <Field className={css.input} type="tel" name="number" id="number" />
+          <ErrorMessage className={css.error} name="number" component="p" />
         </div>
 
         <button className={css.button} type="submit">

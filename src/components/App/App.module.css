@@ -12,3 +12,8 @@
   box-shadow:  3px 9px 17px 0px rgba(137, 137, 137, 0.3);
 }
 
+.title {
+  display: flex;
+    align-items: center;
+    gap: 5px;
+}
